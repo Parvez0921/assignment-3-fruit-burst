@@ -10,6 +10,79 @@
 			type="text/css"
 		/>
 		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/b4122c1bcc.js"
+			crossorigin="anonymous"
+		></script>
+		<style>
+			.font-lato {
+				font-family: 'Lato', sans-serif;
+			}
+		</style>
 	</head>
-	<body></body>
+	<body class="font-lato">
+		<header class="container mx-auto">
+			<nav>
+				<div class="navbar my-8 bg-rose-500 text-white rounded-full">
+					<div class="navbar-start">
+						<div class="dropdown">
+							<label tabindex="0" class="btn btn-ghost lg:hidden">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="h-5 w-5"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h8m-8 6h16"
+									/>
+								</svg>
+							</label>
+							<ul
+								tabindex="0"
+								class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+							>
+								<li><a>Home</a></li>
+								<li><a>About Us</a></li>
+								<li><a>Shop</a></li>
+								<li><a>All Fruits</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="navbar-start -ml-96 hidden lg:flex">
+						<ul class="menu menu-horizontal px-1">
+							<li><a>Home</a></li>
+							<li><a>About us</a></li>
+							<li><a>Shop</a></li>
+							<li><a>All Fruits</a></li>
+						</ul>
+					</div>
+					<a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+					<div class="navbar-end relative">
+						<input
+							type="text"
+							placeholder="Search"
+							class="input input-bordered rounded-full w-24 bg-white md:w-auto"
+						/>
+						<i
+							class="fa-solid fa-magnifying-glass absolute right-3 text-gray-400"
+						></i>
+					</div>
+				</div>
+			</nav>
+			<section></section>
+		</header>
+		<main></main>
+		<footer></footer>
+	</body>
 </html>
